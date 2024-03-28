@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Box {
+    width: 300px;
+    height: 700px;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.Links {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-top: 80%;
+    padding-left: 30px;
+}
+
+.Links a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+
+.Name {
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    color: black;
+    opacity: 0.80;
+}
+
+.Name h1 span {
+    color: red;
+}
+
+.HTML {
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.HTML h1 {
+    padding-top: 70px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.CSS {
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.CSS h1 {
+    padding-top: 70px;
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.JavaScript {
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.JavaScript h1 {
+    padding-top: 70px;
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.React {
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.React h1 {
+    padding-top: 70px;
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
